@@ -90,10 +90,13 @@ const inbox: Notificacao[] =  [
 // Crie uma função declarada chamada statusLeitura que receba uma notificação e retorne:
 // "✅ lida" se lida = true;
 // "📨 não lida" se lida = false.
-function statusLeitura(notificacao: Notificacao): string {
-    if (notificacao.lida === true) {
-         return "foi lida"
-    }else {
-    return "nao lida"
-    }
-}
+// function statusLeitura(notificacao: Notificacao): string {
+//     if (notificacao.lida === true) {
+//          return "foi lida"
+//     }else {
+//     return "nao lida"
+//     }
+// }
+
+// //printar variavel ou funcao etc
+// console.log(`Status da notificação 1: ${statusLeitura(inbox[1]!)}`)
